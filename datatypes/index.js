@@ -1,24 +1,29 @@
 const string = 'apple, banana, kiwi';
 
-// 1. Өгсөн string - ийн бүх үсгийг том болго: 'APPLE, BANANA, KIWI'
-// -- Энд кодоо бичнэ үү!
+console.log(string.toUpperCase);
 
 // 2. Өгсөн string - ийг дараах хэлбэртэй болго: 'Apple; Banana; Kiwi'
-// -- Энд кодоо бичнэ үү!
 
-const array = ['d', 'e', 'c', 'a', 'b'];
+console.log()
 // 3. Өгсөн array - ыг үсгийн дарааллаар эрэмблэ.
-// -- Энд кодоо бичнэ үү!
-
+const array = ['d', 'e', 'c', 'a', 'b'];
+array.sort()
+console.log(array);
 // 4. Өгсөн array - ын голын 3н элемэнтийг салгаж аваад array1 - гэсэн хувьсагчид хийнэ.
 //    array болон array1 ийг хэвлэ.
-// -- Энд кодоо бичнэ үү!
-
+const arr4 = ['d', 'e', 'c', 'a', 'b'];
+console.log(arr4);
+const arr4_1 = arr4.splice(1,3);
+console.log(arr4_1);
 // 5. Өгсөн array - ын эхний элемэнтийг устага
-// -- Энд кодоо бичнэ үү!
+const arr5 = ['d', 'e', 'c', 'a', 'b'];
+arr5.shift();
+console.log(arr5)
 
 // 6. Өгсөн array - ын сүүлийн элемэнтийг устага
-// -- Энд кодоо бичнэ үү!
+const arr6 = ['d', 'e', 'c', 'a', 'b'];
+arr6.unshift();
+console.log(arr6)
 
 // 7. Өгсөн array - ын урд 'z' үсэг нэм
 // -- Энд кодоо бичнэ үү!
